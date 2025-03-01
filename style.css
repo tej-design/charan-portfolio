@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #111;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: cyan;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: cyan;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(45deg, #002244, #001122);
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.glow {
+    color: cyan;
+    text-shadow: 0px 0px 10px cyan;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: cyan;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill {
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px cyan;
+}
+
+.project {
+    margin: 20px auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
